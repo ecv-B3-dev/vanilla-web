@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  background-color: ghostwhite;
+  color: #444;
+  font-family: sans-serif;
+}
+
+nav{
+  width: 20%;
+  padding-left: 40px;
+}
+
+main{
+  width: 80%;
+}
+
+nav, main{
+  float: left;
+}
+
+nav ul{
+  margin: 40px 0;
+  padding:0;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid cornflowerblue;
+}
+
+header{
+  padding: 0 40px;
+}
+
+section{
+  background-color: white;
+  margin: 40px;
+  padding: 11px 22px;
+}
+
+hr{
+  border:0;
+  border-top: 1px solid lightgrey;
+  position:relative;
+  left:-22px;
+  width: calc(100% + 44px);
+  margin: 22px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid gainsboro;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: gainsboro;
+}
+
+.main-title{
+  color: cornflowerblue;
+  text-transform: lowercase;
+  font-size: 120px;
+}
+
+.sub-title{
+  color: cornflowerblue;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <h1 class="main-title">Panoply of HTML elements</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#headings">Headings</a></li>
+        <li><a href="#texts">Texts elements</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#medias">Medias</a></li>
+        <li><a href="#forms">Form elements</a></li>
+        <li><a href="#tables">Tables</a></li>
+      </ul>
+    </nav>
+
+    <main><!-- Début du bloc de contenu principal -->
+
+      <section id="headings">
+
+        <h2 class="sub-title">Headings</h2>
+
+        <!-- Standard Headings -->
+        <h1>h1 — Main title (only one by page)</h1>
+        <h2>h2 — Sub-title</h2>
+        <h3>h3 — Sub sub-title</h3>
+        <h4>h4 — Heading</h4>
+        <h5>h5 — Heading</h5>
+        <h6>h6 — Heading</h6>
+      </section>
+
+      <section id="texts">
+
+        <h2 class="sub-title">Texts</h2>
+
+        <!-- Base type size -->
+        <p>p — The base type is 15px over 1.6 line height (24px)</p>
+        <strong>strong — Strong</strong><br>
+        <em>em — Emphasized</em><br>
+        <a href="#">a — Hyperlink</a><br>
+        <small>small — Small text</small><br>
+
+        <hr><!-- thematic jump -->
+
+        <b>b — bold (please use CSS instead)</b><br>
+        <i>i — italic (please use CSS instead)</i><br>
+        <u>u — underlined (please use CSS instead)</u><br>
+
+        <hr><!-- thematic jump -->
+
+        <blockquote cite="https://stackoverflow.com/">blockquote — &laquo; We &lt;3 people who code &raquo; (Stackoverflow)</blockquote>
+        <abbr title="Cascading Style Sheets">abbr — CSS</abbr><br>
+
+
+        <hr><!-- thematic jump -->
+
+        <p>sup — love<sup>100</sup><p>
+        <p>sub — H<sub>2</sub>0<p>
+
+        <hr><!-- thematic jump -->
+
+        <address>
+          address —<br>
+          <a href="mailto:john@doe.fr">john@doe.fr</a><br>
+          <a href="tel:+13115552368">(311) 555-2368</a>
+        </address>
+
+        <hr><!-- thematic jump -->
+
+        <p>time - The fun starts at <time datetime="2020-10-07T20:00:00">20h00</time>.</p>
+
+      </section>
+
+      <section id="lists">
+
+        <h2 class="sub-title">Lists</h2>
+
+        <!-- unordered list -->
+        <ul>
+          <li>ul > list item 1#</li>
+          <li>ul > list item 2#</li>
+          <li>ul > list item 3#</li>
+          <li>...</li>
+        </ul>
+        <!-- ordred list (please use CSS instead) -->
+        <ol>
+          <li>ol > list item 1#</li>
+          <li>ol > list item 1#</li>
+          <li>ol > list item 1#</li>
+          <li>...</li>
+        </ol>
+      </section>
+
+      <section id="medias">
+
+        <h2 class="sub-title">Medias</h2>
+
+        <img src="https://picsum.photos/200/200" alt="Alternative text" width="150">
+        <img src="assets/image/going-online.gif" alt="Alternative text" width="150"><br>
+
+        <hr><!-- thematic jump -->
+
+        <!-- french flag -->
+        <svg width="150" height="100" viewBox="0 0 3 2">
+          <rect width="1" height="2" x="0" fill="cornflowerblue" />
+          <rect width="1" height="2" x="1" fill="ghostwhite" />
+          <rect width="1" height="2" x="2" fill="tomato" />
+        </svg>
+
+        <!-- flag of luxembourg -->
+        <svg width="150" height="100" viewBox="0 0 9 6">
+          <rect width="9" height="2" x="0" y="0" fill="crimson" />
+          <rect width="9" height="2" x="0" y="2" fill="ghostwhite" />
+          <rect width="9" height="2" x="0" y="4" fill="darkblue" />
+        </svg>
+
+        <hr><!-- thematic jump -->
+
+        <!-- flag of luxembourg -->
+        <svg width="500" height="100" viewBox="0 0 25 5">
+          <!-- color map : 5 => #0b132b, 4 => #1c2541, 3 => #3a506b, 2 => #5bc0be, 1 => #6fffe9 -->
+          <rect width="1" height="1" x="0" y="4" fill="#6fffe9" /><!-- y = 5 - h -->
+          <rect width="1" height="2" x="1" y="3" fill="#5bc0be" />
+          <rect width="1" height="3" x="2" y="2" fill="#3a506b" />
+          <rect width="1" height="2" x="3" y="3" fill="#5bc0be" />
+          <rect width="1" height="1" x="4" y="4" fill="#6fffe9" />
+          <rect width="1" height="1" x="5" y="4" fill="#6fffe9" />
+          <rect width="1" height="2" x="6" y="3" fill="#5bc0be" />
+          <rect width="1" height="3" x="7" y="2" fill="#3a506b" />
+          <rect width="1" height="5" x="8" y="0" fill="#0b132b" />
+          <rect width="1" height="4" x="9" y="1" fill="#1c2541" />
+          <rect width="1" height="2" x="10" y="3" fill="#5bc0be" />
+          <rect width="1" height="3" x="11" y="2" fill="#3a506b" />
+          <rect width="1" height="2" x="12" y="3" fill="#5bc0be" />
+          <rect width="1" height="3" x="13" y="2" fill="#3a506b" />
+          <rect width="1" height="4" x="14" y="1" fill="#1c2541" />
+          <rect width="1" height="2" x="15" y="3" fill="#5bc0be" />
+          <rect width="1" height="1" x="16" y="4" fill="#6fffe9" />
+          <rect width="1" height="1" x="17" y="4" fill="#6fffe9" />
+          <rect width="1" height="3" x="18" y="2" fill="#3a506b" />
+          <rect width="1" height="5" x="19" y="0" fill="#0b132b" />
+          <rect width="1" height="4" x="20" y="1" fill="#1c2541" />
+          <rect width="1" height="2" x="21" y="3" fill="#5bc0be" />
+          <rect width="1" height="1" x="22" y="4" fill="#6fffe9" />
+          <rect width="1" height="1" x="23" y="4" fill="#6fffe9" />
+          <rect width="1" height="2" x="24" y="3" fill="#5bc0be" />
+          <rect width="1" height="4" x="25" y="1" fill="#1c2541" />
+        </svg>
+
+        <hr><!-- thematic jump -->
+
+        <audio controls>
+          <source src="assets/audio/Metronomy-On_Dancefloors.mp3" type="audio/mpeg">
+          <!-- alternative source file goes here -->
+          <p>Sorry, your browser doesn't support embedded audio file.</p>
+        </audio>
+
+        <hr><!-- thematic jump -->
+
+        <video controls width="250">
+            <source src="assets/video/christmas.mp4" type="video/mp4">
+            <!-- alternative source file goes here -->
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+      </section>
+
+      <section id="forms">
+
+        <h2 class="sub-title">Forms</h2>
+
+        <form action="" method="get">
+          <label for="text">Text</label>
+          <input type="text" id="text" name="text" placeholder="Text input"><br>
+
+          <label for="pwd">Email</label>
+          <input type="email" name="usremail" placeholder="john@doe.fr"><br>
+
+          <label for="pwd">Password</label>
+          <input type="password" id="pwd" name="pwd" placeholder="Password input"><br>
+
+          <label for="url">Url</label>
+          <input type="url" id="url" name="url" placeholder="https://johndoe.fr"><br>
+
+          <label for="comment">Review of W3Schools:</label>
+          <textarea id="comment" name="comment">Leave a comment here...</textarea><br><br>
+
+          <label for="number">Number</label>
+          <input type="number" id="number" name="number" min="1" max="10"><br>
+
+          <label for="progress">Downloading progress:</label>
+          <progress id="progress" value="32" max="100"> 32% </progress><br>
+
+          <label for="range">Range</label>
+          <input type="range" id="range" name="range" min="1" max="10"><br>
+
+          <hr><!-- thematic jump -->
+
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date"><br>
+
+          <label for="time">Time</label>
+          <input type="time" id="time" name="time"><br>
+
+          <label for="datetime">Date + time</label>
+          <input type="datetime-local" id="datetime" name="datetime"><br>
+
+          <label for="week">Week</label>
+          <input type="week" id="week" name="week"><br>
+
+          <label for="month">Month</label>
+          <input type="month" id="month" name="month"><br><br>
+
+          <hr><!-- thematic jump -->
+
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male"><br>
+
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female"><br><br>
+
+          <label for="check-1">Carrot</label>
+          <input type="checkbox" name="vegetables" id="check-1" value="1"><br>
+          <label for="check-2">Potato</label>
+          <input type="checkbox" name="vegetables" id="check-2" value="2"><br>
+          <label for="check-3">Cucumber</label>
+          <input type="checkbox" name="vegetables" id="check-3" value="3"><br><br>
+
+          <hr><!-- thematic jump -->
+
+          <label for="pet-select">Choose a pet:</label>
+          <select name="pets" id="pet-select">
+              <option value="">--Please choose an option--</option>
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="hamster">Hamster</option>
+              <option value="parrot">Parrot</option>
+              <option value="spider">Spider</option>
+              <option value="goldfish">Goldfish</option>
+          </select><br><br>
+
+          <label>Please choose one or more pets:
+            <select name="pets" multiple size="4">
+              <optgroup label="4-legged pets">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster" disabled>Hamster</option>
+              </optgroup>
+              <optgroup label="Flying pets">
+                <option value="parrot">Parrot</option>
+                <option value="macaw">Macaw</option>
+                <option value="albatross">Albatross</option>
+              </optgroup>
+            </select>
+          </label><br><br>
+
+          <hr><!-- thematic jump -->
+
+          <label for="file">Select a file:</label>
+          <input type="file" id="file" name="file"><br>
+
+          <label for="files">Select multiple files:</label>
+          <input type="file" id="files" name="files" multiple><br><br>
+
+          <input type="submit" name="submit" value="Submit"><br><br>
+        </form>
+      </section>
+
+      <section id="tables">
+        <h2 class="sub-title">Tables</h2>
+
+        <table>
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+          </tr>
+          <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+          </tr>
+        </table>
+
+      </section>
+
+    </main><!-- Fin du bloc de contenu principal -->
+
+  </body>
+
+</html>
